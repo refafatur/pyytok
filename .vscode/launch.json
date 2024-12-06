@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "authhub2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "authhub2 (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "authhub2 (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "authhub2 (Flutter Chrome)",
+            "program": "lib/main.dart",
+            "deviceId": "chrome",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
