@@ -140,6 +140,7 @@ export const login = async (req, res) => {
   }
 };
 
+//sawal
 export const userProfile = async (req, res) => {
   try {
     const userId = req.user.userId;
@@ -233,6 +234,7 @@ export const editProfile = async (req, res) => {
     });
   }
 };
+
 
 export const createPost = async (req, res) => {
   try {
